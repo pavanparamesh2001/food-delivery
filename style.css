@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    background-color: green;
+    height: 60px;
+    justify-content: center;
+}
+header h1{
+    padding: 10px;
+    color: brown;
+    /* justify-content: center; */
+
+}
+
+
+#banner{
+    width: 1600px;
+    height: 400px;
+    background-image:url(https://wallpapercave.com/wp/wp2375750.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.row{
+    padding: 30px;
+    width: 100%;
+    background-color:orange;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.col1{
+    width: 250px;
+    height: 400px;
+    background-color:orange;
+    margin: 20px;
+    padding: 10px;
+    border: 4px solid blueviolet;
+}
+.col2{
+    width: 250px;
+    height: 400px;
+    background-color:orange;
+    margin: 20px;
+    padding: 10px;
+    border: 4px solid blueviolet;
+}
+.col3{
+     width: 250px;
+    height: 400px;
+    background-color:orange;
+    margin: 20px;
+    padding: 10px;
+    border: 4px solid blueviolet;
+}
+.col4{
+    width: 250px;
+    height: 400px;
+    background-color:orange;
+    margin: 20px;
+    padding: 10px;
+    border: 4px solid blueviolet;
+}
+.contact{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-weight: 200;
+    margin-top: 20px;
+}
+img{
+    width: 100%;
+    height: 250px;
+}
+button{
+    background-color: blue;
+    color: yellow;
+    padding: 10px;
+    margin: 20px;
+}
+button:hover{
+    color: indigo;
+    background-color: aqua;
+}
+h2{
+    background-color: yellow;
+    justify-content: center;
+    font-size: x-large;
+    font-weight: 400;
+color:red;
+
+
+}
+@media only screen and (max-width:400px){
+    .row{
+        width: 800px;
+        height: 500px;
+        display: inline-block;
+    }
+    .rights{
+        color: black;
+      align-content: center;
+        font-size: 18px;
+        justify-content: center;
+        margin-top: 20px;
+    }
+}
+    
+        
+    
+
+
+
+
+    
